@@ -21,17 +21,12 @@ Page({
     });
   },
 
-  onClickCart() {
-    wx.navigateTo({
-      url: '/pages/cart/index',
-      success: () => {},
-      error: () => {
-        wx.showToast({
-          icon: 'none',
-          title: '打开购物车失败',
-        });
-      },
-    });
+  onCharacter(e) {
+    let { num } = e.mark;
+    wx.vibrateShort({
+      type: "heavy",
+    }),
+    this.setData({ num })
   },
 
   onClickUser() {

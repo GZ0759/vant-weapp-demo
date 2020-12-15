@@ -1,7 +1,7 @@
 <view class="main">
-  <van-row>
-    <van-col span="6" wx:for="{{ 4 }}">
-      <van-button plain type="info">朴素按钮</van-button>
-    </van-col>
-  </van-row>
+  <view class="main-btns" bind:tap="onCharacter">
+    <view class="main-btn" wx:for="{{ 12 }}" class="main-btn" mark:num="{{ index }}">
+      <van-button custom-class="btn" plain="{{ num !== index }}" type="info">A</van-button>
+    </view>
+  </view>
 </view>
