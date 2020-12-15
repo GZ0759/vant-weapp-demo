@@ -1,10 +1,10 @@
 {
   "navigationBarTitleText": "会员中心",
   "usingComponents": {
-    "van-cell": "/@vant/weapp/dist/cell/index",
-    "van-cell-group": "/@vant/weapp/dist/cell-group/index",
-    "van-icon": "/@vant/weapp/dist/icon/index",
-    "van-row": "/@vant/weapp/dist/row/index",
-    "van-col": "/@vant/weapp/dist/col/index"
+    "van-cell": "/miniprogram_npm/@vant/weapp/cell/index",
+    "van-cell-group": "/miniprogram_npm/@vant/weapp/cell-group/index",
+    "van-icon": "/miniprogram_npm/@vant/weapp/icon/index",
+    "van-row": "/miniprogram_npm/@vant/weapp/row/index",
+    "van-col": "/miniprogram_npm/@vant/weapp/col/index"
   }
 }
