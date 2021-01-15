@@ -1,17 +1,3 @@
 .main {
-  --button-border-width: 0;
-  text-align: center;
-}
-.main-btns {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.main-btn {
-  width: 20%;
-  border: 1rpx solid #c9c9c9;
-  box-sizing: border-box;
-}
-.btn {
-  width: 100%;
+  --goods-action-height: 100rpx;
 }
